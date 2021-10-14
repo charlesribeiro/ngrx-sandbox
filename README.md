@@ -33,3 +33,4 @@ If the username and email don't match the ones you want to use in your Github re
     
     git push -u origin main
 
+    yarn add @ngrx/store
