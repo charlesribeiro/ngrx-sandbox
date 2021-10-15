@@ -36,6 +36,7 @@ If the username and email don't match the ones you want to use in your Github re
     git branch -M main
     
     git push -u origin main
+    
 
 It is now time to add the ngrx specific stuff
 
@@ -44,8 +45,6 @@ yarn add @ngrx/store
 ```
 
 ## What is NgRx about?
-
-Redux is Javascript library that allows you to keep data about an application in a javascript object called store. NgRx allows you to use those Redux features in an Angular app coupled with RxJs.
 
 According to [NgRx docs](https://ngrx.io/docs#what-is-ngrx)
 
@@ -61,4 +60,15 @@ According to [NgRx docs](https://ngrx.io/docs#what-is-ngrx)
 Check this [diagram](https://ngrx.io/docs#what-is-ngrx)
 [<img src="https://ngrx.io/generated/images/guide/store/state-management-lifecycle.png">](https://ngrx.io/generated/images/guide/store/state-management-lifecycle.png)
 
+## Tutorial
+
+This tutorial (over the state-management branch) has been based on the
+https://ngrx.io/guide/store/walkthrough.
+Create your own branch from main and do the steps from the tutorial. Check if everything works.
+
+## Watch out
+
+Add StoreDevtoolsModule.instrument() to the app.module.ts imports.
+Make sure to fix the books.actions and the books.reducer.
+Try to find out what is wrong there before
 
