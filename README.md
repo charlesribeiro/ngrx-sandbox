@@ -45,6 +45,8 @@ yarn add @ngrx/store
 
 ## What is NgRx about?
 
+Redux is Javascript library that allows you to keep data about an application in a javascript object called store. NgRx allows you to use those Redux features in an Angular app coupled with RxJs.
+
 According to [NgRx docs](https://ngrx.io/docs#what-is-ngrx)
 
 > NgRx is a framework for building reactive applications in Angular. NgRx provides libraries for:
