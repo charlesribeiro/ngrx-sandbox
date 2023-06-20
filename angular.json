@@ -120,5 +120,8 @@
         }
       }
     }},
-  "defaultProject": "ngrx-sandbox"
+  "defaultProject": "ngrx-sandbox",
+  "cli": {
+    "analytics": false
+  }
 }
